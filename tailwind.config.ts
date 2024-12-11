@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        redPantone: 'var(--red-pantone)',
+        babyPowder: 'var(--baby-powder)',
+        nonPhotoBlue: 'var(--non-photo-blue)',
+        cerulean: 'var(--cerulean)',
+        berkeleyBlue: 'var(--berkeley-blue)',
       },
     },
   },
