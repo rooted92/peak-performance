@@ -2,7 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Chillers</div>
+    <div>
+        Glycol Heating Systems
+    </div>
   )
 }
 
