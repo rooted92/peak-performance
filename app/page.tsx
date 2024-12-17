@@ -17,12 +17,12 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="border-b bg-white shadow-sm">
-        <div className="container flex flex-col space-y-4 px-4 py-4">
+        <div className="container mx-auto flex flex-col space-y-4 px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <Link href="/" className="relative h-16 w-48">
                 <Image
-                  src="/peakperformance-logo.png"
+                  src="/images/peakperformance-logo.png"
                   alt="Peak Performance Refrigeration, Inc."
                   fill
                   className="object-contain"
@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-50 to-white py-16">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -145,7 +145,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="py-16">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold">Our Services</h2>
           <div className="grid gap-8 md:grid-cols-3">
             <Card>
@@ -223,7 +223,7 @@ export default function Home() {
 
       {/* About Section */}
       <section className="bg-gray-50 py-16">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-8 text-3xl font-bold">About Us</h2>
             <p className="mb-6 text-lg text-gray-600">
@@ -241,7 +241,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section className="py-16">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl">
             <h2 className="mb-12 text-center text-3xl font-bold">Contact Us</h2>
             <div className="grid gap-8 md:grid-cols-3">
@@ -267,7 +267,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-auto border-t bg-white py-8">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <div className="text-center">
             <p className="text-sm text-gray-600">
               © {new Date().getFullYear()} Peak Performance Refrigeration, Inc. Lic. #795823
