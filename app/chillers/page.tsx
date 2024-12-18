@@ -39,7 +39,7 @@ export default function ChillersPage() {
                     />
                   </div>
                   <div className="flex flex-col justify-center p-8">
-                    <h2 className="mb-4 text-2xl font-bold">High-Capacity Winery Chiller</h2>
+                    <h2 className="mb-4 text-2xl font-bold">High-Capacity Winery</h2>
                     <p className="text-gray-600">
                       Our flagship glycol chiller system, designed for optimal performance and energy efficiency.
                       Perfect for medium to large-scale winery operations, offering superior temperature control
@@ -63,7 +63,7 @@ export default function ChillersPage() {
                     />
                   </div>
                   <div className="flex flex-col justify-center p-8">
-                    <h2 className="mb-4 text-2xl font-bold">Space-Efficient Glycol Chiller</h2>
+                    <h2 className="mb-4 text-2xl font-bold">Space-Efficient Glycol</h2>
                     <p className="text-gray-600">
                       A versatile chiller solution that combines power with space efficiency.
                       Ideal for wineries with specific space requirements, this system maximizes
@@ -87,7 +87,7 @@ export default function ChillersPage() {
                     />
                   </div>
                   <div className="flex flex-col justify-center p-8">
-                    <h2 className="mb-4 text-2xl font-bold">Compact Performance Chiller</h2>
+                    <h2 className="mb-4 text-2xl font-bold">Compact Performance</h2>
                     <p className="text-gray-600">
                       Our compact yet powerful chiller system, designed for smaller operations
                       without compromising on performance. Perfect for boutique wineries or as
