@@ -1,40 +1,11 @@
 import { PhoneCall, Mail, MapPin } from 'lucide-react'
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Hero from '@/components/ui/Hero'
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Header */}
-      
-
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-50 to-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="flex flex-col justify-center space-y-4">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                State of the Art Refrigeration Solutions
-              </h1>
-              <p className="text-xl text-gray-600">
-                Specializing in winery refrigeration, cold storage, and food processing systems in Northern California.
-              </p>
-              <div className="flex space-x-4">
-                <Button size="lg" className="bg-red-600 hover:bg-red-700">
-                  Get Started
-                </Button>
-                <Button size="lg" variant="outline">
-                  Learn More
-                </Button>
-              </div>
-            </div>
-            <div className="hidden md:block">
-              {/* Placeholder for hero image */}
-              <div className="aspect-square rounded-lg bg-gray-100"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* Services Section */}
       <section className="py-16">
@@ -157,8 +128,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       
     </div>
   )
