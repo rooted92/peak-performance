@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/" className="relative h-16 w-48">
           <Image
-            src="/peakperformance-logo.png"
+            src="/images/peakperformance-logo.png"
             alt="Peak Performance Refrigeration, Inc."
             fill
             className="object-contain"
