@@ -57,6 +57,14 @@ export default function ContactPage() {
                                                 <RadioGroupItem value="quote" id="quote" />
                                                 <Label htmlFor="quote">Request a Quote</Label>
                                             </div>
+                                            <div className="flex items-center space-x-2">
+                                                <RadioGroupItem value="service" id="service" />
+                                                <Label htmlFor="service">Schudule Service</Label>
+                                            </div>
+                                            <div className="flex items-center space-x-2">
+                                                <RadioGroupItem value="consultation" id="consultation" />
+                                                <Label htmlFor="consultation">Request a Consultaion</Label>
+                                            </div>
                                         </RadioGroup>
                                     </div>
                                     <div className="grid gap-2">
