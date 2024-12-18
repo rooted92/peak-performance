@@ -16,8 +16,8 @@ export default function ContactPage() {
                             Contact Us
                         </h1>
                         <p className="text-xl text-gray-600">
-                            Whether you're looking for a quote or have a general inquiry, we're here to help.
-                            Fill out the form below and we'll get back to you as soon as possible.
+                            Whether you&apos;re looking for a quote or have a general inquiry, we&apos;re here to help.
+                            Fill out the form below and we&apos;ll get back to you as soon as possible.
                         </p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function ContactPage() {
                     <Card className="mx-auto max-w-2xl">
                         <CardHeader>
                             <CardTitle>Get in Touch</CardTitle>
-                            <CardDescription>Fill out this form and we'll respond promptly.</CardDescription>
+                            <CardDescription>Fill out this form and we&apos;ll respond promptly.</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <form>
