@@ -24,7 +24,7 @@ export default function WineTankPipingPage() {
               Wine Tank Piping Solutions
             </h1>
             <p className="text-xl text-gray-200">
-              Professional wine tank piping and temperature control systems customized for your facility's specific needs.
+              Professional wine tank piping and temperature control systems customized for your facility&apos;s specific needs.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function WineTankPipingPage() {
             <p className="mb-12 text-center text-lg text-gray-600">
               Peak Performance Refrigeration provides customized wine tank piping and temperature
               controls for your facility. With automatic and dual function cooling control valves,
-              you can run your wine tank on "set it and forget it" or maintain manual control over
+              you can run your wine tank on &quot;set it and forget it&quot; or maintain manual control over
               heating and cooling systems.
             </p>
             <div className="grid gap-8 md:grid-cols-2">
@@ -98,7 +98,7 @@ export default function WineTankPipingPage() {
                   <div>
                     <h3 className="mb-2 font-semibold">Automatic Control</h3>
                     <p className="text-sm text-gray-600">
-                      "Set it and forget it" functionality with automatic temperature control valves.
+                      &auot;Set it and forget it&quot; functionality with automatic temperature control valves.
                     </p>
                   </div>
                 </CardContent>

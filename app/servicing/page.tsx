@@ -12,6 +12,7 @@ export default function ServicingPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/cold-storage.jpg"
+            alt='Exterior refrigiration unit for cold storage'
             fill
             className="object-cover"
           />

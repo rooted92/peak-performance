@@ -42,7 +42,7 @@ export default function GlycolHeatingSystemsPage() {
                     <h2 className="mb-4 text-2xl font-bold">Portable Glycol Heating System</h2>
                     <p className="mb-6 text-gray-600">
                       Our standard portable glycol heating units can be used to plug into a 30 amp 3-phase service 
-                      and are 30" wide to fit through any doorway. Features include:
+                      and are 30&quot; wide to fit through any doorway. Features include:
                     </p>
                     <ul className="mb-6 space-y-2 text-gray-600">
                       <li className="flex items-center gap-2">
@@ -168,7 +168,7 @@ export default function GlycolHeatingSystemsPage() {
             <h2 className="mb-8 text-3xl font-bold">Get Your Custom Heating Solution</h2>
             <p className="mb-8 text-lg text-gray-600">
               Contact us today to discuss your glycol heating system needs. 
-              We'll help you select the perfect solution for your facility.
+              We&apos;ll help you select the perfect solution for your facility.
             </p>
             <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
               <a href="tel:7075263600" className="flex items-center gap-2">
