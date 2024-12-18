@@ -121,7 +121,7 @@ export default function BarrelWarehousePage() {
             <h2 className="mb-8 text-3xl font-bold">Get Started Today</h2>
             <p className="mb-8 text-lg text-gray-600">
               Contact us to discuss your barrel warehouse cooling and heating needs. 
-              We'll help you design the perfect system for your facility.
+              We&apos;ll help you design the perfect system for your facility.
             </p>
             <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
               <a href="tel:7075263600" className="flex items-center gap-2">
