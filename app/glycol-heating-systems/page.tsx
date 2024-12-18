@@ -30,7 +30,7 @@ export default function GlycolHeatingSystemsPage() {
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <div className="grid md:grid-cols-2">
-                  <div className="relative aspect-video">
+                  <div className="relative aspect-video md:aspect-auto">
                     <Image
                       src="/images/portable-glycol-heater.jpg"
                       alt="Portable Glycol Heating System"
@@ -67,7 +67,7 @@ export default function GlycolHeatingSystemsPage() {
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <div className="grid md:grid-cols-2">
-                  <div className="relative aspect-video md:order-2">
+                  <div className="relative aspect-video md:aspect-auto md:order-2">
                     <Image
                       src="/images/stationary-glycol-heater.jpg"
                       alt="Stationary Glycol Heating System"

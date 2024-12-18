@@ -26,7 +26,7 @@ const Hero = () => {
                     <div className="hidden md:block">
                         <div className="aspect-square rounded-lg bg-gray-100">
                             <Image
-                                src="/images/cold-storage.jpg"
+                                src="/images/stainless-steel-tanks.jpg"
                                 alt="Barrels of wine stacked in a cellar"
                                 width={2000}
                                 height={2000}
