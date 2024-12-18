@@ -25,7 +25,7 @@ const Services = () => {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-xl font-semibold">Winery Refrigeration</h3>
+                            <h3 className="text-xl font-semibold text-center">Winery Refrigeration</h3>
                             <p className="text-center text-gray-600">
                                 Customized cooling solutions for wineries and wine storage facilities.
                             </p>
