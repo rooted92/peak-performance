@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { PhoneCall, Mail } from 'lucide-react'
+import Link from 'next/link'
 
 export default function ChillersPage() {
   return (
@@ -121,9 +122,11 @@ export default function ChillersPage() {
               </a>
             </div>
             <div className="mt-8">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700">
-                Request a Quote
-              </Button>
+              <Link href="/contact">
+                <Button size="lg" className="bg-red-600 hover:bg-red-700">
+                  Request a Quote
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

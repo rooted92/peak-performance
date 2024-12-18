@@ -159,7 +159,10 @@ const Header = () => {
             <PhoneCall className="h-5 w-5 text-blue-500" />
             <span className="text-lg font-semibold">(707) 526-3600</span>
           </a>
+          <Link href={`/contact`}>
           <Button className="bg-red-600 hover:bg-red-700">Contact Us</Button>
+          </Link>
+          
         </div>
       </div>
     </header>
