@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="container mx-auto px-4">
                 <div className="grid gap-8 md:grid-cols-2">
                     <div className="flex flex-col justify-center space-y-4">
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-balanced">
                             State of the Art Refrigeration Solutions
                         </h1>
                         <p className="text-xl text-gray-600">
@@ -28,8 +28,8 @@ const Hero = () => {
                             <Image
                                 src="/images/cold-storage.jpg"
                                 alt="Barrels of wine stacked in a cellar"
-                                width={500}
-                                height={500}
+                                width={2000}
+                                height={2000}
                                 className="object-cover w-full h-full rounded-lg"
                             />
                         </div>
