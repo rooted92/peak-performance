@@ -27,7 +27,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="border-b bg-white shadow-sm">
+    <header className="border-b bg-white shadow-sm z-20">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/" className="relative h-16 w-48">
           <Image
